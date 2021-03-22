@@ -1,0 +1,73 @@
+
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('polices/Raleway/Raleway-VariableFont_wght.ttf', 'polices/Raleway/Raleway-Italic-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+*
+{
+    font-family: Raleway, Arial, "Arial Black", "Comic Sans MS", "Courier New"; 
+}
+
+.element_h
+{
+    border: 3px blue solid;
+}
+/* header */
+header
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav 
+{
+    display: flex;
+    align-items: center;
+}
+.nav_header
+{
+    display: flex;
+    align-items: center;
+}
+.nav-link
+{
+    color: #000000;
+}
+.nav-link:hover
+{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+}
+/* body */
+.container
+{
+    border: 3px blue solid;
+}
+/* footer */
+.footer
+{
+    background-color: #a4cc5a;
+}
+/* modifs tablette */
+@media all and (max-width: 991px)
+{
+    .nav_header
+    {
+        position: absolute;
+        top: 5em;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav-link:hover
+    {
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+    }
+}
