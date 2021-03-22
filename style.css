@@ -22,7 +22,6 @@ a:link
 {
     font-family: Raleway, Arial, "Arial Black", "Comic Sans MS", "Courier New"; 
 }
-
 .element_h
 {
     border: 3px blue solid;
@@ -66,13 +65,13 @@ header nav
 footer
 {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
+    background-color: #F2F2F2;
 }
-.footer
+footer div
 {
     width: 33%;
-    background-color: #a4cc5a;
 }
 
 /* modifs tablette */
@@ -92,9 +91,10 @@ footer
         border-bottom: 3px solid #0065FC;
         border-top: none;
     }
+    /* footer */
+    footer div
+    {
+        width: 100%;
+    }
 }
-/* footer */
-.footer
-{
-    width: 100%;
-}
+
