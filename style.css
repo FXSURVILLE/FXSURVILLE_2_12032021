@@ -10,7 +10,10 @@
 {
     font-family: Raleway, Arial, "Arial Black", "Comic Sans MS", "Courier New"; 
 }
-
+a:link
+{
+    text-decoration: none;
+}
 .element_h
 {
     border: 3px blue solid;
@@ -30,7 +33,6 @@ header nav
     display: flex;
     align-items: center;
     justify-content: space-between;
-  un
 }
 .logo
 {
@@ -61,16 +63,23 @@ header nav
     border: 3px blue solid;
 }
 /* footer */
+footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .footer
 {
+    width: 33%;
     background-color: #a4cc5a;
 }
+
 /* modifs tablette */
 @media all and (max-width: 991px)
 {
     .nav_header
     {
-        position: absolute;
         top: 5em;
         left: 0;
         width: 100%;
@@ -83,4 +92,9 @@ header nav
         border-bottom: 3px solid #0065FC;
         border-top: none;
     }
+}
+/* footer */
+.footer
+{
+    width: 100%;
 }
