@@ -4,12 +4,14 @@
   <head>
     
     <meta charset="utf-8" />
+    <script src="https://kit.fontawesome.com/00f509e342.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" /> <!-- fichier CSS -->
         <title>Reservia</title>
     
   </head>
 
   <body>
+    <!--header block-->
     <header>
         <nav>
             <div class="logo">
@@ -19,18 +21,26 @@
             </div>
             <div class="nav_header">
                 <a class="nav-link" href="#Hébergements">Hébergements</a>
-                <a class="nav-link" href="#Achref="WIP.html"tivités">Activités</a>
+                <a class="nav-link" href="#Ativités">Activités</a>
                 <a href="WIP.html" ><strong>S'inscrire</strong></strong></a>
             </div>
         </nav>        
     </header>
-    
-    <div class="container">
-        <div class="row">
+    <!--filter block-->
+    <div class="container_filter">
+        <div class="text_filter">
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             <p>En plein centre ville ou en pleine nature</p>
         </div>
+        <div id="search">
+            <div id="loc_logo">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <input type="text" id="loc_text" name="pseudo" placeholder="Selectionnez votre ville"/>
+            <input type="button" id="loc_send" value="Envoyer">
+        </div>
     </div>
+    <!--main block-->
     <div class="container ">
         <div class="row">
             <div class="col">
@@ -60,6 +70,7 @@
         <h2 id="Activités">Activités à Marseille</h2>
         <p>text</p>
     </div>
+    <!--fooer block-->
     <footer>
         <div>            
             <h3>A propos</h3>
