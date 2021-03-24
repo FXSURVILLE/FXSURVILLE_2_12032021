@@ -59,13 +59,14 @@ header nav a
     display: flex;
     align-items: center;
     width: auto;
+    margin: 1em;
 }
 #loc_logo
 {
-    height: 30px;
-    width: 30px;
+    height: 2.5em;
+    width: 2.5em;
     border: 2px F2F2F2;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 0.75em 0em 0em 0.75em;
     background-color: #F2F2F2;
     position: relative;
 }
@@ -79,16 +80,18 @@ header nav a
 }
 #loc_text
 {
-    height: 28px;
+    height: 1.5em;
     border: none;
-    font-weight: bold; /* gras */
+    font-weight: bold;
 }
 #loc_send
 {
-    height: 30px;
-    border-radius: 0px 10px 10px 0px;
+    height: 2.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 0em 0.75em 0.75em 0em;
     border: 0px #0065fc;
-    font-weight: bold; /* gras */
+    font-weight: bold;
     font-size: 1rem;
     color: white;
     background: #0065fc;
@@ -97,68 +100,161 @@ header nav a
 {
     display: flex;
     flex-wrap: wrap;
+    margin: 1em;
 }
 .filter
 {
     display: flex;
     align-items: center;  
     font-weight: bold; 
-    border-radius: 15px;
-    border: 2px black solid;
-    padding: 0%;
+    border-radius: 1.5em;
+    border: 2px #F2F2F2 solid;
+    height: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 .filter i
 {
-    margin-left: auto;
-    margin-right: auto;
+    padding: 1.02em;
     color: #0065FC;
     text-align: center;
-    height: 30px;
-    width: 30px;
     border-radius: 50%;
     background: #DEEBFF;
+}
+.filter p
+{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.info
+{
+    display: flex;
+    align-items: center;
+}
+.fa-info
+{
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: #0065FC;
+    text-align: center;
+    border: 2px #DEEBFF solid;
+    border-radius: 50%;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 /* container_1 */
 .container_1
 {
     display: flex;
     flex-wrap: wrap;
-    border-radius: 20px;
-    background: #7d7e7e;
+    border-radius: 1em;
+    background: #F2F2F2;
+    width: 66%;
+    height: 65em;
 }
 .container_1 h2
 {
     width: 100%;
-    top: 30px; left: 30px;
+    top: 3em; 
+    margin-left: 1em;
+    margin-top: 2em
 }
 .block_1
 {
     position: relative;
-    padding: 5px;
-    margin: 15px;
-    border-radius: 20px;
-    width: 30%;
+    padding: 0.5em;
+    margin: 1.5em;
+    border-radius: 1em;
+    width: 28%;
+    height: 35%;
     background: #ffffff;
+    color: black;
+}
+.block_1 h4 ,.block_1 p,.stars
+{
+    margin-left: 1em;
 }
 .imgc1
 {
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 1em 1em 0em 0em;
     width: 100%; 
-    height: 150px; 
+    height: 60%; 
     object-fit: cover; 
 }
 .nav-c1
 {
     color: #000;
     font-weight: bold; /* gras */
-    margin: 20px;
+    margin: 21em;
+}
+/* container_2 */
+.container_2
+{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1em;
+    background: #F2F2F2;
+    width: 31%;
+    margin-left: 2em;
+}
+.c2_title
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 1.5em;
+    margin-left: 1em; 
+    margin-right: 1em;  
+}
+.block_2
+{
+    padding: 0.5em;
+    margin: 1.5em;
+    border-radius: 1em;
+    width: 100%;     
+    height: 24%;
+    background: #ffffff;
+    display: flex;
+    color: black;
+}
+.block_2 img
+{
+    width: 35%;
+}
+.imgc2
+{
+    border-radius: 1em 0em 0em 1em;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+.text_b2
+{
+    width: 60%;
+    margin-left: 1em;
 }
 /* body */
+.main
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 .container
 {
     border: 3px blue solid;
 }
-
+.fa-star.blue
+{
+    color: #0065fc;
+}
+.fa-star.grey
+{
+    color: #757575;
+}
 /* footer */
 footer
 {
@@ -170,6 +266,10 @@ footer
 footer div
 {
     width: 33%;
+}
+footer div a h4
+{
+    color: black;
 }
 
 /* modifs tablette */
@@ -198,6 +298,7 @@ footer div
     {
         width: 50%;
         margin-right: 0;
+        border-bottom: 3px solid #F2F2F2;
     }
     .nav-link:hover
     {
