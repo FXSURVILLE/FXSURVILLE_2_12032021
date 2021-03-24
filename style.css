@@ -2,9 +2,7 @@
 @font-face
 {
     font-family: 'Raleway';
-    src: url('polices/Raleway/Raleway-VariableFont_wght.ttf', 'polices/Raleway/Raleway-Italic-VariableFont_wght.ttf');
-    font-weight: normal;
-    font-style: normal;
+    src: url('polices/Raleway/Raleway-VariableFont_wght.ttf'), url('polices/Raleway/Raleway-Italic-VariableFont_wght.ttf')
 }
 *
 {
@@ -47,6 +45,7 @@ header nav a
 }
 .nav-link
 {
+    margin-right: 1em;
     color: #000000;
 }
 .nav-link:hover
@@ -119,9 +118,40 @@ header nav a
     border-radius: 50%;
     background: #DEEBFF;
 }
-.filter p
+/* container_1 */
+.container_1
 {
-    
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background: #7d7e7e;
+}
+.container_1 h2
+{
+    width: 100%;
+    top: 30px; left: 30px;
+}
+.block_1
+{
+    position: relative;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 20px;
+    width: 30%;
+    background: #ffffff;
+}
+.imgc1
+{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%; 
+    height: 150px; 
+    object-fit: cover; 
+}
+.nav-c1
+{
+    color: #000;
+    font-weight: bold; /* gras */
+    margin: 20px;
 }
 /* body */
 .container
@@ -167,6 +197,7 @@ footer div
     .nav-link
     {
         width: 50%;
+        margin-right: 0;
     }
     .nav-link:hover
     {
