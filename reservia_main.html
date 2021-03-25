@@ -4,7 +4,7 @@
   <head>
     
     <meta charset="utf-8" />
-    <script src="https://kit.fontawesome.com/00f509e342.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/00f509e342.js" crossorigin="anonymous"></script> <!-- icones -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" /> <!-- fichier CSS -->
@@ -33,11 +33,11 @@
             <p>En plein centre ville ou en pleine nature</p>
         </div>
         <div id="search">
-            <div id="loc_logo">
+            <a id="loc_logo" href="https://www.google.fr/maps">
                 <i class="fas fa-map-marker-alt"></i>
-            </div>
-            <input type="text" id="loc_text" name="pseudo" placeholder="Selectionnez votre ville"/>
-            <input type="button" id="loc_send" value="Rechercher">
+            </a>
+            <input type="text" id="loc_text" name="q" placeholder="Selectionnez votre ville"/> <!--terme de la recherche-->
+            <input type="submit" id="loc_send" value="Rechercher"> <!-- bouton d'envoi de formulaire -->
         </div>
         <div class="container_filter">
             <h3>Filtres</h3>
@@ -65,6 +65,7 @@
     </div>
     <!--main block-->
     <div class="main">
+        <!-- container_1 -->
         <div class="container_1">
             <h2 id="Hébergements">Hébergements à Marseille</h2>
             <a class="block_1" href="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
@@ -139,8 +140,9 @@
                     <i class="fa fa-star blue"></i>
                 </div> 
             </a>
-            <a class="nav-c1" href="WIP.html" ><strong>Afficher plus</strong></strong></a>       
+            <a class="nav-c1" href="WIP.html" ><strong>Afficher plus</strong></strong></a>   
         </div>
+        <!-- container_2 -->
         <div class="container_2">
             <div class="c2_title">
                 <h2 id="populaires">Les plus populaires</h2>
@@ -190,9 +192,47 @@
             </a>               
         </div>
     </div>
+    <!-- Grid -->
     <div class="container">
         <h2 id="Activités">Activités à Marseille</h2>
-        <p>text</p>
+        <div class="wrapper">
+            <a class="one" href="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                <img class="img_grid1" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Photo profil" title="Cliquez pour agrandir">  
+                <div class="text_grid">
+                    <h4>Hôtel Tout bleu et Blanc</h4>
+                </div>
+            </a>
+            <a class="two" href="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                <img class="img_grid2" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Photo profil" title="Cliquez pour agrandir">  
+                <div class="text_grid">
+                    <h4>Hôtel Tout bleu et Blanc</h4>
+                </div>                
+            </a>
+            <a class="three" href="images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
+                <img class="img_grid3" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Photo profil" title="Cliquez pour agrandir">  
+                <div class="text_grid">
+                    <h4>Hôtel Tout bleu et Blanc</h4>
+                </div>                
+            </a>
+            <a class="four" href="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
+                <img class="img_grid4" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Photo profil" title="Cliquez pour agrandir">  
+                <div class="text_grid">
+                    <h4>Hôtel Tout bleu et Blanc</h4>
+                </div>                
+            </a>
+            <a class="five" href="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg">
+                <img class="img_grid5" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Photo profil" title="Cliquez pour agrandir">  
+                <div class="text_grid">
+                    <h4>Hôtel Tout bleu et Blanc</h4>
+                </div>                
+            </a>
+            <a class="six" href="images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
+                <img class="img_grid6" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Photo profil" title="Cliquez pour agrandir">  
+                <div class="text_grid">
+                    <h4>Hôtel Tout bleu et Blanc</h4>
+                </div>                
+            </a>
+        </div>
     </div>
     <!--footer block-->
     <footer>
