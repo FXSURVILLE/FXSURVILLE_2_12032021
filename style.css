@@ -124,8 +124,8 @@ header nav a
 }
 .filter:hover
 {
-    color: red;
-    text-decoration:line-through;
+    color: #0065FC;
+    text-decoration:underline;
 }
 .logo_filter
 {
