@@ -24,6 +24,10 @@ a:link
 {
     border: 3px blue solid;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
 /* header */
 header nav
 {
@@ -51,17 +55,18 @@ header nav a
 .nav-link:hover
 {
     color: #0065FC;
+    padding-top: 2em;
     border-top: 3px solid #0065FC;
 }
 .nav-link2
 {
     color: #0065FC;
+    margin-right: 2em;
 }
 /* filter */
 #search
 {
     display: flex;
-    align-items: center;
     width: auto;
     margin: 1em;
 }
@@ -84,8 +89,10 @@ header nav a
 }
 #loc_text
 {
-    height: 1.5em;
+    height: 2.5em;
     border: none;
+    border-top: 2px #F2F2F2 solid;
+    border-bottom: 2px #F2F2F2 solid;
     font-weight: bold;
 }
 #loc_send
@@ -113,19 +120,20 @@ header nav a
 }
 .filter
 {
-    
-    align-items: center;  
+
     font-weight: bold; 
     border-radius: 1.5em;
     border: 2px #F2F2F2 solid;
     height: 2.5em;
     margin-left: 1em;
     margin-right: 1em;
+    display: flex;
+  align-items: center;
 }
 .filter:hover
 {
     color: #0065FC;
-    text-decoration:underline;
+    background: #DEEBFF;
 }
 .logo_filter
 {
@@ -172,6 +180,7 @@ header nav a
     background: #F2F2F2;
     width: 66%;
     height: 50em;
+    margin-left: 1em;
 }
 .container_1 h2
 {
@@ -218,8 +227,8 @@ header nav a
     flex-wrap: wrap;
     border-radius: 1em;
     background: #F2F2F2;
-    width: 31%;
-    margin-left: 2em;
+    width: 30%;
+    margin-left: 1.5em;
 }
 .c2_title
 {
@@ -276,9 +285,10 @@ header nav a
     color: #757575;
 }
 /* Grid */
-#Activités
+.Activités
 {
     margin-top: 2em; 
+    margin-left: 1em;
 }
 .wrapper 
 {
@@ -370,6 +380,7 @@ footer
 {
     display: flex;
     flex-wrap: wrap;
+    padding: 2em;
     justify-content: space-between;
     background-color: #F2F2F2;
 }
@@ -380,6 +391,7 @@ footer div
 footer div a p
 {
     color: black;
+    height: 0em;
 }
 
 /* modifs tablette */
@@ -408,11 +420,14 @@ footer div a p
     {
         width: 50%;
         margin-right: 0;
+        padding-bottom: 1em;
         border-bottom: 3px solid #F2F2F2;
     }
     .nav-link:hover
     {
         color: #0065FC;
+        padding-top: 0em;
+        padding-bottom: 1em;
         border-bottom: 3px solid #0065FC;
         border-top: none;
     }
@@ -456,12 +471,14 @@ footer div a p
     {
         width: 100%; 
         height: 14em; 
-        object-fit: cover; 
+        object-fit: cover;
     }
     .block_1
     {
         width: 100%;
-        height: 22em;
+        height: 22em; 
+        margin-right: 2em;
+        box-shadow: 1.5px 1.5px 10px #F2F2F2;
     }
     /* container_2 */
     .container_2
