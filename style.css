@@ -64,6 +64,9 @@ header nav a
     margin-right: 2em;
 }
 /* filter */
+.text_filter {
+    margin-left: 1em;
+}
 #search
 {
     display: flex;
