@@ -508,12 +508,21 @@ footer div a p
     .block_2
     {
         height: auto;
+        max-height: 180px;
         margin-top: 0em;
         margin-bottom: 1.5em;
     }
     .block_2 img
     {
         width: 40%;
+    }
+    .text_b2 h4
+    {
+        max-height: 40px;
+    }
+    .text_b2 p
+    {
+        max-height: 20px;
     }
     
     /* Grid */
