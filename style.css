@@ -36,10 +36,10 @@ header nav
     align-items: center;
     justify-content: space-between;
 }
-header nav a
-{
-    border: 1px #000000;
-}
+#logo-header
+    {
+        margin-left: 10px;
+    }
 .nav_header
 {
     align-items: center;
